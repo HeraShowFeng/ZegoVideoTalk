@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "ZegoRoomInfo.h"
 #import "ZegoManager.h"
-#import "ZegoSingleAudienceViewController.h"
-#import "ZegoMultiAudienceViewController.h"
-#import "ZegoMixStreamAudienceViewController.h"
 
 #ifdef VIDEOLIVE
 
+#import "ZegoSingleAudienceViewController.h"
+#import "ZegoMultiAudienceViewController.h"
+#import "ZegoMixStreamAudienceViewController.h"
 #import "video_capture_external_demo.h"
 #import "ZegoVideoCaptureFromImage.h"
 
